@@ -9,7 +9,7 @@ With RxJS dependency and this library we can go further and make Angular more Re
 
 ## Examples of poor reactivity
 
-### Problem 1 - @ViewChild
+### Problem 1: @ViewChild
 
 *Abstract use case:*
 Every time you click the button it should take latest value of `numbers$` stream and log it to console.
@@ -90,7 +90,7 @@ class MyComponent {
 }
 ```
 
-### Problem 2 - Imperative ngOnChanges
+### Problem 2: Imperative ngOnChanges
 
 *Abstract use case:*
 If Input `a` is resolved for first time I want to log `'foo'`.
@@ -155,7 +155,7 @@ Have you noticed that `previousValue` and `currentValue` are just `any`? So you 
 
 ## ngx-reactive-decorators solution
 
-### Solution for Problem 1 - @ViewChildObservable
+### Solution for Problem 1: @ViewChildObservable
 
 ```html
 <button #button>Click me!</button>
@@ -181,7 +181,7 @@ class MyComponent {
 
 So instead of waiting for ViewChild inside lifecycle hook we just emit resolved value from stream. It gives you possibility to handle asynchronous Angular operations in reactive way.
 
-### Solution for problem 2 - @InputObservable
+### Solution for Problem 2: @InputObservable
 
 ```typescript
 @Component(...)
@@ -229,7 +229,7 @@ public isFirstChange$ = this.input$
 
  *Q: How to mimic complete SimpleChange?*
 
- *A: Just combine previous examples and create the instance
+ *A: Just combine previous examples and create the instance*
 
  ```typescript
 public simpleChange$: Observable<SimpleChange> = Observable
