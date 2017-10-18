@@ -4,7 +4,7 @@
   "description": "Set of decorators for Angular to make it more reactive",
   "main": "index.ts",
   "scripts": {
-    "test": "node_modules/.bin/jest"
+    "test": "node_modules/.bin/jest --ci"
   },
   "repository": {
     "type": "git",
