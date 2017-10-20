@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "strictNullChecks": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "experimentalDecorators": true,
+    "baseUrl": "",
+    "mapRoot": "./",
+    "isolatedModules": false,
+    "removeComments": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es5",
+    "sourceMap": true,
+    "lib": [
+      "dom",
+      "es2015"
+    ]
+  },
+  "include": [
+    "./**/*.ts"
+  ],
+  "compileOnSave": false
+}

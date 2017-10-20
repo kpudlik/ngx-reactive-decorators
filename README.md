@@ -1,4 +1,4 @@
-# ngx-reactive-decorators
+# ngx-reactive-decorators [![Build Status](https://travis-ci.org/kpudlik/ngx-reactive-decorators.svg?branch=master)](https://travis-ci.org/kpudlik/ngx-reactive-decorators)
 Set of decarators for Angular to make it more delarative and reactive.
 
 ## Reasoning behind
