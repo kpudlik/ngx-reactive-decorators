@@ -2,13 +2,6 @@ import { Component } from '@angular/core'
 import { ComponentFixture, TestBed } from '@angular/core/testing'
 import { Observable } from 'rxjs/Observable'
 import { Subject } from 'rxjs/Subject'
-import 'rxjs/add/observable/zip'
-import 'rxjs/add/operator/bufferCount'
-import 'rxjs/add/operator/distinctUntilChanged'
-import 'rxjs/add/operator/first'
-import 'rxjs/add/operator/scan'
-import 'rxjs/add/operator/skip'
-import 'rxjs/add/operator/take'
 import { InputObservable } from './input-observable'
 
 @Component({

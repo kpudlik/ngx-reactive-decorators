@@ -1,17 +1,8 @@
-import { Component } from '@angular/core';
-import { ViewChildObservable } from './view-child-observable';
-import { Observable } from 'rxjs/Observable';
-import 'rxjs/add/observable/zip'
-import 'rxjs/add/operator/first'
-import 'rxjs/add/operator/skip'
-import 'rxjs/add/operator/scan'
-import 'rxjs/add/operator/take'
-import 'rxjs/add/operator/distinctUntilChanged'
-import 'rxjs/add/operator/bufferCount'
-import { Subject } from 'rxjs/Subject';
-import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { By } from '@angular/platform-browser';
-import { DebugElement, ElementRef } from '@angular/core';
+import { Component, ElementRef } from '@angular/core'
+import { ComponentFixture, TestBed } from '@angular/core/testing'
+import { Observable } from 'rxjs/Observable'
+import { Subject } from 'rxjs/Subject'
+import { ViewChildObservable } from './view-child-observable'
 
 @Component({
   selector: 'my-component',
@@ -23,7 +14,7 @@ export class MyComponent {
 
 describe('@InputObservable', () => {
   let comp: MyComponent;
-  let fixture: ComponentFixture<MyComponent>;
+  let fixture: ComponentFixture<MyComponent>
 
   beforeEach(() => {
     TestBed.configureTestingModule({
@@ -31,7 +22,7 @@ describe('@InputObservable', () => {
     });
 
     fixture = TestBed.createComponent(MyComponent)
-    comp = fixture.componentInstance; // BannerComponent test instance
+    comp = fixture.componentInstance // BannerComponent test instance
   });
 
   it('should change Input to Observable', () => {
