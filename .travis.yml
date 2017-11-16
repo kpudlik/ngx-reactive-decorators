@@ -11,6 +11,6 @@ branches:
     - develop
     - master
 before_install:
-  - echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" > .npmrc
+  - printf "//registry.npmjs.org/:_authToken=${NPM_TOKEN}\n" >> .npmrc
 after_success:
   - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && npm publish
