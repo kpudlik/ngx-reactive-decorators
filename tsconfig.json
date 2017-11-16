@@ -1,0 +1,38 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": false,
+    "alwaysStrict": true,
+    "charset": "utf8",
+    "declaration": false,
+    "emitDecoratorMetadata": false,
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
+    "experimentalDecorators": true,
+    "isolatedModules": false,
+    "lib": [
+      "dom",
+      "es2015"
+    ],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noEmitHelpers": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "outDir": "lib",
+    "removeComments": true,
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "target": "es5"
+  },
+  "files": [
+    "./src/index.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "lib"
+  ]
+}
