@@ -1,26 +1,38 @@
 {
+  "compileOnSave": false,
   "compilerOptions": {
-    "noImplicitAny": false,
-    "strictNullChecks": true,
-    "noImplicitReturns": true,
-    "noImplicitThis": true,
+    "allowSyntheticDefaultImports": false,
     "alwaysStrict": true,
+    "charset": "utf8",
+    "declaration": false,
+    "emitDecoratorMetadata": false,
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
     "experimentalDecorators": true,
-    "baseUrl": "",
-    "mapRoot": "./",
     "isolatedModules": false,
-    "removeComments": true,
-    "module": "commonjs",
-    "moduleResolution": "node",
-    "target": "es5",
-    "sourceMap": true,
     "lib": [
       "dom",
       "es2015"
-    ]
+    ],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noEmitHelpers": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "outDir": "lib",
+    "removeComments": true,
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "target": "es5"
   },
-  "include": [
-    "./**/*.ts"
+  "files": [
+    "./src/index.ts"
   ],
-  "compileOnSave": false
+  "exclude": [
+    "node_modules",
+    "lib"
+  ]
 }

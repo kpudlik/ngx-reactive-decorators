@@ -3,7 +3,7 @@ import { Observable } from 'rxjs/Observable'
 import { ReplaySubject } from 'rxjs/ReplaySubject'
 
 export function InputObservable<T>(inputName?: string) {
-  return (target: object, name: string) => {
+  return (target: object, name: string): void => {
     const subject = new ReplaySubject<T>(1)
 
     if (this[name]) {
