@@ -1,6 +1,6 @@
 {
   "name": "ngx-reactive-decorators",
-  "version": "0.2.0",
+  "version": "1.0.0-rc1",
   "description": "Set of decorators for Angular to make it more reactive",
   "main": "src/index.ts",
   "scripts": {
