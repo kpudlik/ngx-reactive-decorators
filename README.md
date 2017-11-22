@@ -1,5 +1,15 @@
-# ngx-reactive-decorators [![Build Status](https://travis-ci.org/kpudlik/ngx-reactive-decorators.svg?branch=master)](https://travis-ci.org/kpudlik/ngx-reactive-decorators)
+# ngx-reactive-decorators  [![Build Status](https://travis-ci.org/kpudlik/ngx-reactive-decorators.svg?branch=master)](https://travis-ci.org/kpudlik/ngx-reactive-decorators) [![npm version](https://badge.fury.io/js/ngx-reactive-decorators.svg)](https://badge.fury.io/js/ngx-reactive-decorators) [![Known Vulnerabilities](https://snyk.io/test/github/kpudlik/ngx-reactive-decorators/badge.svg)](https://snyk.io/test/github/kpudlik/ngx-reactive-decorators)
+
 Set of decarators for Angular to make it more delarative and reactive.
+
+## Getting started
+npm: `npm install --save ngx-reactive-decorators`
+
+yarn: `yarn add ngx-reactive-decorators`
+
+Import decorators in file where you want to use it:
+
+`import { InputObservable } from 'ngx-reactive-decorators'`
 
 ## Reasoning behind
 
