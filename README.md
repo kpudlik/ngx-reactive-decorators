@@ -3,9 +3,12 @@
 Set of decarators for Angular to make it more delarative and reactive.
 
 ## Getting started
-Use `npm install --save ngx-reactive-decorators` or `yarn add ngx-reactive-decorators`
+npm: `npm install --save ngx-reactive-decorators`
+
+yarn: `yarn add ngx-reactive-decorators`
 
 Then import decorators in file where you want to use it:
+
 `import { InputObservable } from 'ngx-reactive-decorators'`
 
 ## Reasoning behind
